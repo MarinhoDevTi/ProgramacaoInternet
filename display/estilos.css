@@ -5,13 +5,23 @@ body {
 
 .carta {
 
+    border-width: 5px; /* espessura */
+    border-style: solid; /* estilo */
+    border-color: #f0ece2; /* cor */
 
 }
 
 .foto {
+    
+    background-color: antiquewhite;
+    border-width: 5px; /* espessura */
+    border-style: solid; /* estilo */
+    border-color: #f0ece2; /* cor */
 
 }
 
 .p {
+
+    
 
 }
