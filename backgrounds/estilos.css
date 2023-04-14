@@ -1,0 +1,7 @@
+body {
+    /*background-color: blueviolet;*/
+    background-image: url('marte.jpeg');
+    background-repeat: no-repeat;
+
+    background-position: center top;
+}
