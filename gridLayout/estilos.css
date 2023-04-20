@@ -41,18 +41,21 @@ body {
 #menu_v {
     background-color: #00BFFF;
     grid-area: menu_v;
+    width: 150px;
 
 }
 
 #principal {
     background-color: #00FF7F;
     grid-area: principal;
+    width: 700px;
 
 }
 
 #publi {
     background-color: #7CFC00;
     grid-area: publi;
+    width: 150px;
 
 }
 
