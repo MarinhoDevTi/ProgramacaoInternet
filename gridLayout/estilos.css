@@ -1,0 +1,65 @@
+/* Grid/estilos.css */
+
+body {
+    margin: 0;
+}
+
+#site {
+    display: grid;
+
+    grid-template-areas: 
+        'topo topo topo'
+        'menu_h menu_h menu_h'
+        'menu_v principal publi'
+        'rodape rodape rodape'
+    ;
+
+    width:  1000px;
+    margin: 0 auto;
+
+
+}
+
+#site div {
+    padding: 1em;
+    text-align: center;    
+}
+
+#topo {
+    background-color: #0f0 ;
+    grid-area: topo;
+    height: 100px;
+
+}
+
+#menu_h {
+    background-color: #6A5ACD;
+    grid-area: menu_h;
+
+}
+
+#menu_v {
+    background-color: #00BFFF;
+    grid-area: menu_v;
+
+}
+
+#principal {
+    background-color: #00FF7F;
+    grid-area: principal;
+
+}
+
+#publi {
+    background-color: #7CFC00;
+    grid-area: publi;
+
+}
+
+#rodape {
+    background-color: #4B0082;
+    grid-area: rodape;
+    height: 70px;
+
+}
+
