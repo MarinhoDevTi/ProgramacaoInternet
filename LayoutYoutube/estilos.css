@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	grid-area: header;
+	background-color: #ff0000;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	background-color: #00ff00;
+}
+
